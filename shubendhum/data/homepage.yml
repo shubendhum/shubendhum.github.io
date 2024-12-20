@@ -6,7 +6,7 @@ head:
 showcase:
   enable: true
   title: "Shubendhu Mahajan"
-  subtitle: "Head of Digital Identity Engineering"
+  subtitle: "Head of Engineering and Innovation - Digital Identity"
   description: >
     With over 17 years of experience in digital identity, cloud technologies, and security, I specialize in leading the delivery of comprehensive Customer Identity platforms. My role involves researching the latest advancements in digital identity technology, designing and implementing solutions that are scalable, secure, and aligned with business goals. I’m responsible for crafting strategic product roadmaps that accelerate platform evolution, focusing on automation, faster releases, and DevOps integration. My expertise in security ensures that all solutions meet the highest industry standards. As a leader, I mentor and guide a team of Engineering Managers and Technical Product Owners, fostering a culture of innovation and continuous improvement. My vision is to build agile, high-performing teams that deliver impactful results. 
   image:
@@ -68,8 +68,8 @@ about:
     btnText: "About Me"
     URL: "https://shubendhum.github.io/"
   image:
-    x: "images/who-am-i/user-picture.png"
-    _2x: "images/who-am-i/user-picture@2x.png"
+    x: "images/who-am-i/shub-picture.png"
+    _2x: "images/who-am-i/shub-picture@2x.png"
 
 # education
 education:
