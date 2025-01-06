@@ -2,12 +2,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="theme-color" content="#478079" >
-<link rel="stylesheet" href="{{ "css/featured.css" | relURL }}">
+
 {{ if .Site.Params.analytics.google_tag_manager.enabled }}
 <link rel="preconnect" href="https://www.googletagmanager.com">
 {{ end }}
 <!-- endinject -->
 <title>{{ .Site.Data.homepage.head.title }}</title>
+ <!-- Other existing CSS/JS -->
+ <link rel="stylesheet" href="{{ "css/featured.css" | relURL }}">
+
 <meta name="description" content="{{ .Site.Data.homepage.head.description }}">
 
 {{ $critical := resources.Get "css/critical.css" | resources.ToCSS | resources.Minify }}
@@ -32,7 +35,11 @@
 {{ if hugo.IsProduction }} 
     {{ $css = $css | minify | fingerprint | resources.PostProcess }} 
 {{ end }}
-
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@9/swiper-bundle.min.css"
+/>
 <link
   rel="preload"
   href="{{ $css.RelPermalink }}"

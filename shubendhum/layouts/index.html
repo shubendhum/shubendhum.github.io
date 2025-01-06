@@ -4,8 +4,13 @@
 
 <head>
 
+   
+	 <!-- Swiper CSS via CDN -->
+	 <link
+	 rel="stylesheet"
+	 href="https://unpkg.com/swiper@9/swiper-bundle.min.css"
+   />
     {{ partial "head.html" . }}
-
     {{ partial "head_custom.html" . }}
 
 </head>
@@ -18,6 +23,35 @@
 	{{ end }}
 	{{ partial "footer.html" . }}
     {{ partial "base-foot.html" . }}
+	<!-- Swiper JS via CDN -->
+    <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var swiper = new Swiper('.swiper', {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          loop: false,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            }
+          }
+        });
+      });
+    </script>
 </body>
 
 </html>
