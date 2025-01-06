@@ -13,8 +13,8 @@
 <body class="{{ if .IsHome }}home{{ end }}">
 
 	{{ partial "header.html" . }}
-    {{ partial "featured.html" . }}
 	{{ range .Site.Params.sections }}
+	{{ partial "featured-posts.html" . }}
 	{{ partial . $ }}
 	{{ end }}
 
