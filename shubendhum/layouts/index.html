@@ -14,9 +14,9 @@
 
 	{{ partial "header.html" . }}
 	{{ range .Site.Params.sections }}
-	{{ partial "featured.html" . }}
 	{{ partial . $ }}
 	{{ end }}
+	{{ partial "featured.html" . }}
 	{{ partial "footer.html" . }}
     {{ partial "base-foot.html" . }}
 </body>
