@@ -1,17 +1,23 @@
-{{ $featuredPost := first 1 (where .Site.RegularPages "Params.featured" "==" true) }}
-{{ if $featuredPost }}
-    {{ range $featuredPost }}
-        <section id="featured-post" class="featured-post">
-            <div class="featured-image">
-                <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
-            </div>
-            <div class="featured-content">
-                <h1>DEBUG FEATURED PARTIAL</h1>
-                <h2>{{ .Title }}</h2>
-                <!-- Optionally, add an excerpt or description -->
-                <p>{{ .Summary }}</p>
-                <a href="{{ .Permalink }}">Read More »</a>
-            </div>
-        </section>
-    {{ end }}
-{{ end }}
+<!-- layouts/partials/featured-posts.html -->
+<div id="featuredPostsCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
+      {{ range $index, $page := $featuredPages }}
+        <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h5>
+            <p>{{ $page.Summary }}</p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#featuredPostsCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#featuredPostsCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  
