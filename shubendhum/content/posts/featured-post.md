@@ -1,7 +1,9 @@
-+++
-title = "Featured Post Title"
-date = 2025-01-06T12:00:00
-featured = true
-image = "images/who-am-i/shub-picture.png"
-draft = false
-+++
+---
+
+title: 'Featured Post Title'
+date: '2020-12-17T00:00:00+01:00'
+featured: true
+image: "images/who-am-i/shub-picture.png"
+draft: false
+
+---
