@@ -1,23 +1,5 @@
-<!-- layouts/partials/featured-posts.html -->
-<div id="featuredPostsCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
-      {{ range $index, $page := $featuredPages }}
-        <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-          <div class="carousel-caption d-none d-md-block">
-            <h5><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h5>
-            <p>{{ $page.Summary }}</p>
-          </div>
-        </div>
-      {{ end }}
-    </div>
-  
-    <!-- Carousel Controls -->
-    <a class="carousel-control-prev" href="#featuredPostsCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </a>
-    <a class="carousel-control-next" href="#featuredPostsCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </a>
-  </div>
-  
+{{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
+{{ range $featuredPages }}
+  <!-- Show the post title and link -->
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+{{ end }}
