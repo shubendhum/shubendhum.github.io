@@ -1,0 +1,17 @@
+{{ $featuredPost := first 1 (where .Site.RegularPages "Params.featured" "==" true) }}
+{{ if $featuredPost }}
+    {{ range $featuredPost }}
+        <section id="featured-post" class="featured-post">
+            <div class="featured-image">
+                <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+            </div>
+            <div class="featured-content">
+                <h1>DEBUG FEATURED PARTIAL</h1>
+                <h2>{{ .Title }}</h2>
+                <!-- Optionally, add an excerpt or description -->
+                <p>{{ .Summary }}</p>
+                <a href="{{ .Permalink }}">Read More »</a>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
