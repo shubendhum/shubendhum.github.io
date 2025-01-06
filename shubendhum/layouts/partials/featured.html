@@ -1,24 +1,29 @@
-{{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
-{{ range $featuredPages }}
-<div class="featured-post-container">
-  <!-- The Featured Image -->
-  <div class="featured-post-image-wrapper">
-    <a href="{{ .Permalink }}">
-      <!-- You can use a background-image or a regular <img> tag. -->
-      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="featured-post-image" />
-    </a>
-  </div>
-
-  <!-- Title and Summary below the image -->
-  <div class="featured-post-text">
-    <h2 class="featured-post-title">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
-    {{ if .Summary }}
-    <p class="featured-post-summary">
-      {{ .Summary }}
-    </p>
-    {{ end }}
-  </div>
-</div>
-{{ end }}
+<!-- layouts/partials/featured.html -->
+<section class="featured-section">
+    <h2 class="featured-heading">Featured</h2>
+  
+    <!-- Horizontal scroller container -->
+    <div class="featured-scroller">
+      {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
+      {{ range $featuredPages }}
+      <div class="featured-post">
+        <!-- Text portion -->
+        <div class="featured-text">
+          <h3 class="featured-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h3>
+          <!-- For a short excerpt, you can use .Summary or .Description -->
+          <p class="featured-description">{{ .Summary }}</p>
+        </div>
+  
+        <!-- Image portion (only if Params.image is set) -->
+        {{ with .Params.image }}
+        <div class="featured-image">
+          <img src="{{ . }}" alt="{{ $.Title }}">
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  
