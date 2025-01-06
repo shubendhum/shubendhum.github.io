@@ -1,38 +1,37 @@
 <!-- layouts/partials/featured.html -->
-<section class="featured-section">
-    <h2 class="featured-heading">Featured</h2>
+<section class="section section--border-bottom rad-animation-group featured-section">
+    <div class="container">
+      <div class="row rad-fade-down">
+        <div class="col-12">
+          <h2 class="featured-heading">Featured</h2>
   
-    <!-- Swiper container -->
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
+          <!-- Swiper container -->
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
+              {{ range $featuredPages }}
+              <div class="swiper-slide featured-post">
+                <div class="featured-text">
+                  <h3 class="featured-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  </h3>
+                  <p class="featured-description">{{ .Summary }}</p>
+                </div>
   
-        {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
-        {{ range $featuredPages }}
-        <!-- Each slide -->
-        <div class="swiper-slide featured-post">
-          <div class="featured-text">
-            <h3 class="featured-title">
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h3>
-            <p class="featured-description">{{ .Summary }}</p>
+                {{ with .Params.image }}
+                <div class="featured-image">
+                  <img src="{{ . }}" alt="{{ $.Title }}" />
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
-  
-          {{ with .Params.image }}
-          <div class="featured-image">
-            <img src="{{ . }}" alt="{{ $.Title }}" />
-          </div>
-          {{ end }}
         </div>
-        {{ end }}
       </div>
-  
-      <!-- If you want pagination bullets -->
-      <div class="swiper-pagination"></div>
-  
-      <!-- If you want navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </div>
   </section>
   
