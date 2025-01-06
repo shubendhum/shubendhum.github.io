@@ -56,7 +56,7 @@ theme = "adritian"
   URL = "#contact"
   weight = 4
 [params]
-  sections = ["showcase", "about", "featured", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "featured", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
   homepageExperienceCount = 6
   [params.google_analytics]
       code = "UA-XXXXX-Y"
