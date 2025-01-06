@@ -1,5 +1,24 @@
 {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
 {{ range $featuredPages }}
-  <!-- Show the post title and link -->
-  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="featured-post-container">
+  <!-- The Featured Image -->
+  <div class="featured-post-image-wrapper">
+    <a href="{{ .Permalink }}">
+      <!-- You can use a background-image or a regular <img> tag. -->
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="featured-post-image" />
+    </a>
+  </div>
+
+  <!-- Title and Summary below the image -->
+  <div class="featured-post-text">
+    <h2 class="featured-post-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    {{ if .Summary }}
+    <p class="featured-post-summary">
+      {{ .Summary }}
+    </p>
+    {{ end }}
+  </div>
+</div>
 {{ end }}
