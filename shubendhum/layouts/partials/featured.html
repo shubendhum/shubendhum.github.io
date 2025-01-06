@@ -2,28 +2,37 @@
 <section class="featured-section">
     <h2 class="featured-heading">Featured</h2>
   
-    <!-- Horizontal scroller container -->
-    <div class="featured-scroller">
-      {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
-      {{ range $featuredPages }}
-      <div class="featured-post">
-        <!-- Text portion -->
-        <div class="featured-text">
-          <h3 class="featured-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </h3>
-          <!-- For a short excerpt, you can use .Summary or .Description -->
-          <p class="featured-description">{{ .Summary }}</p>
-        </div>
+    <!-- Swiper container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
   
-        <!-- Image portion (only if Params.image is set) -->
-        {{ with .Params.image }}
-        <div class="featured-image">
-          <img src="{{ . }}" alt="{{ $.Title }}">
+        {{ $featuredPages := where .Site.RegularPages "Params.featured" true }}
+        {{ range $featuredPages }}
+        <!-- Each slide -->
+        <div class="swiper-slide featured-post">
+          <div class="featured-text">
+            <h3 class="featured-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="featured-description">{{ .Summary }}</p>
+          </div>
+  
+          {{ with .Params.image }}
+          <div class="featured-image">
+            <img src="{{ . }}" alt="{{ $.Title }}" />
+          </div>
+          {{ end }}
         </div>
         {{ end }}
       </div>
-      {{ end }}
+  
+      <!-- If you want pagination bullets -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- If you want navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </section>
   

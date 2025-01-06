@@ -21,4 +21,40 @@
       
     </div>
   </div>
+  <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var swiper = new Swiper('.swiper', {
+      // Optional parameters
+      slidesPerView: 3,           // Number of slides to show at once on desktop
+      spaceBetween: 20,          // Space (px) between slides
+      loop: false,               // or true, if you want infinite looping
+
+      // If you want arrows:
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // If you want pagination bullets:
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      // Responsive breakpoints (if needed)
+      breakpoints: {
+        768: {  // at 768px or bigger
+          slidesPerView: 2
+        },
+        1024: { // at 1024px or bigger
+          slidesPerView: 3
+        }
+      }
+    });
+  });
+</script>
+
+
 </footer>
