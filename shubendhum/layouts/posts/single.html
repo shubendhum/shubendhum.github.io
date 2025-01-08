@@ -20,12 +20,20 @@
           <!-- Using RelPermalink here is optional. Usually you'd just display the title. -->
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h1>
+        
+        <!-- Featured Image (from front matter "image") -->
+        {{ with .Params.image }}
+          <figure class="featured-image">
+            <img src="{{ . }}" alt="{{ $.Title }}">
+          </figure>
+        {{ end }}
+
 
         <!-- Post Meta Info -->
         <aside id="meta" class="light-border-bottom">
           <div>
             <section>
-              Published on
+              Published on 
               <h4 id="date">{{ .Date.Format "Mon Jan 2, 2006" }}</h4>
               ·
               <h4 id="wordcount">{{ .WordCount }} Words</h4>
