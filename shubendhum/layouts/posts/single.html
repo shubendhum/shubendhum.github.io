@@ -24,7 +24,7 @@
         <!-- Featured Image (from front matter "image") -->
         {{ with .Params.image }}
           <figure class="featured-image">
-            <img src="{{ . }}" alt="{{ $.Title }}">
+            <img src="/{{ . }}" alt="{{ $.Title }}">
           </figure>
         {{ end }}
 
