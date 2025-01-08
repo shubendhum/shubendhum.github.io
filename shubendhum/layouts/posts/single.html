@@ -60,4 +60,26 @@
           </div>
         </div>
 
-        <!-- Previous / 
+        <!-- Previous / Next navigation within the same section -->
+        <aside class="content-browser light-border-top">
+          Continue reading
+          <div>
+            {{ with .PrevInSection }}
+              <a class="previous" href="{{ .RelPermalink }}">↩ {{ .LinkTitle }}</a>
+            {{ end }}
+
+             ■ 
+
+            {{ with .NextInSection }}
+              <a class="next" href="{{ .RelPermalink }}">{{ .LinkTitle }} ↪</a>
+            {{ end }}
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    {{ partial "footer.html" . }}
+    {{ partial "base-foot.html" . }}
+  </body>
+</html>
+<!-- endinject -->
