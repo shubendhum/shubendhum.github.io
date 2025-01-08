@@ -6,6 +6,11 @@ jobTitle: "Head of Engineering and Innovation - Digital Identity"
 company: "ANZ Banking Group "
 location: "Melbourne, Australia"
 duration: "2020-now"
+title: 'Featured Post Title'
+date: '2020-12-17T00:00:00+01:00'
+featured: true
+image: "images/who-am-i/shub-picture.png"
+draft: false
 
 ---
 ### Leader of Centralized CIAM Platform for Digital Identity(Onboarding and Authorization) and Fraud Prevention, Managing a Team of 50+
@@ -18,3 +23,4 @@ I have successfully integrated both off-the-shelf products and in-house solution
 
 Delivered ANZ Plus Connect ID, utilizing OAuth, backchannel authentication, and OIDC for secure identity verification.
 Currently developing a solution to enable customers to perform ID proofing with third parties using Verifiable Credentials.
+

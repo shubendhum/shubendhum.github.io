@@ -21,12 +21,27 @@
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h1>
         
-        <!-- Featured Image (from front matter "image") -->
-        {{ with .Params.image }}
-          <figure class="featured-image">
-            <img src="/{{ . }}" alt="{{ $.Title }}">
-          </figure>
-        {{ end }}
+       <!-- Featured Image (from front matter "image") -->
+       {{ with .Params.image }}
+       <figure 
+         class="featured-image" 
+         style="max-width: 100%; margin-bottom: 1rem; overflow: visible;"
+       >
+         <img 
+           src="/{{ . }}" 
+           alt="{{ $.Title }}"
+           style="
+             width: 100%; 
+             height: auto; 
+             object-fit: contain; 
+             /* Remove object-fit if you want to keep the original aspect ratio 
+                without any potential letterboxing.
+                object-fit: contain; = fits entire image in container.
+                object-fit: cover;   = may crop edges. */
+           "
+         >
+       </figure>
+     {{ end }}
 
 
         <!-- Post Meta Info -->
