@@ -1,21 +1,30 @@
-{{ define "main" }}
-  <div class="container">
-    <article class="post">
-      <header>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Site Header</h1>
+    </header>
+
+    <main>
+      <article>
         <h1>{{ .Title }}</h1>
-        <p>Published on {{ .Date.Format "Jan 2, 2006" }}</p>
-      </header>
+        <p>Date: {{ .Date }}</p>
 
-      {{ with .Params.image }}
-        <figure>
+        {{ with .Params.image }}
           <img src="{{ . }}" alt="{{ $.Title }}">
-        </figure>
-      {{ end }}
+        {{ end }}
 
-      <!-- The main Markdown body -->
-      <div class="post-content">
+        <!-- The main Markdown body -->
         {{ .Content }}
-      </div>
-    </article>
-  </div>
-{{ end }}
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 My Site</p>
+    </footer>
+  </body>
+</html>
