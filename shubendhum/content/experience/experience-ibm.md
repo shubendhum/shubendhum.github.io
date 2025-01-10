@@ -5,6 +5,7 @@ title: "IBM Global Process"
 jobTitle: "Identity and Access Management Consultant"
 company: "IBM Global Process PVT Ltd"
 location: "Gurgaon, India"
+Summary: "Optimizing IAM for Financial and Insurance Leaders Designed and implemented...."
 duration: "2010-2011"
 ---
 

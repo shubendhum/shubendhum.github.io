@@ -4,6 +4,7 @@ draft: false
 title: "ANZ Banking Group"
 jobTitle: "Senior Engineering Manager  Identity"
 company: "ANZ Banking Group"
+Summary: "Transforming Identity Management for Enterprise Excellence As a senior......"
 location: "Melbourne, Australia"
 duration: "2016-2019"
 ---

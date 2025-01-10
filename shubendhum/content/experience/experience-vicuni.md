@@ -4,6 +4,7 @@ draft: false
 title: "Victoria University"
 jobTitle: "Engineering Manager  Identity"
 company: "Victoria University"
+Summary: "Engineering Identity Excellence in Higher Education...."
 location: "Melbourne, Australia"
 duration: "2015-2016"
 ---

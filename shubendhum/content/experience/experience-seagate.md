@@ -4,6 +4,7 @@ draft: false
 title: "Seagate Technologies"
 jobTitle: "Technology Lead  Workforce IAM"
 company: "Seagate Technologies"
+Summary: "Led the development of a self-service identity platform for employees, integrating ..."
 location: "Penang, Malaysia"
 duration: "2014-2015"
 ---

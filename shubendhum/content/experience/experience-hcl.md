@@ -4,6 +4,7 @@ draft: false
 title: "HCL Technologies"
 jobTitle: "Senior Consultant IAM"
 company: "HCL Technologies LTD"
+Summary: "Tailoring IAM Solutions for Global Enterprises Delivered consulting services to Fortune 5...."
 location: "Noida, India"
 duration: "2011-2013"
 ---

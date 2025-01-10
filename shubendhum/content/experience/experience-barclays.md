@@ -4,6 +4,7 @@ draft: false
 title: "Barclays Investment Bank"
 jobTitle: "Senior Consultant  IAM"
 company: "Barclays Investment Bank"
+Summary: "Pioneering IAM Advancements in Global Banking Relocated to Singapore to l,......."
 location: "Singapore"
 duration: "2013-2014"
 ---
