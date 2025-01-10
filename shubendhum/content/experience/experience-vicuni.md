@@ -1,23 +1,20 @@
----
-date: 2015-08-01T00:00:00+01:00
+date: '2015-08-01T00:00:00+01:00'
 draft: false
-title: "Victoria University"
-jobTitle: "Engineering Manager - Identity"
-company: "Victoria University"
-location: "Melbourne, Australia"
-duration: "2015-2016"
-
+title: "**Victoria University**"
+jobTitle: "**Engineering Manager - Identity**"
+company: "**Victoria University**"
+location: "**Melbourne, Australia**"
+duration: "**2015-2016**"
 ---
-### Engineering Identity Excellence in Higher Education
 
-Designed and delivered a new student identity management platform, enabling scalable, secure access with single sign-on (SSO) across university applications.
+### **Engineering Identity Excellence in Higher Education**
 
-Designed the platform to manage the entire student lifecycle, from application to enrollment, ensuring seamless data integration and user access.
+Spearheaded the design and implementation of a **student identity management platform**, delivering secure access with single sign-on (SSO) across critical university applications.
 
-Collaborated with stakeholders to align technical solutions with business needs within tight budget constraints, ensuring on-time delivery.
+### **Strategic Contributions:**
 
-Migrated legacy systems smoothly, minimizing disruptions while providing comprehensive training and documentation for stakeholders.
-
-Led and mentored a team of seven engineers, fostering a collaborative culture focused on delivery and professional growth.
-
-Implemented IAM best practices, optimizing workflows andenhancing platform performance to support long-term operational resilience.
+- **Platform Innovation:** Developed a scalable identity platform to support the entire student lifecycle, ensuring seamless integration and user-friendly access.
+- **Smooth Migration:** Executed the transition from legacy systems to modern IAM solutions with minimal disruptions, backed by comprehensive stakeholder training.
+- **Budget-Conscious Delivery:** Collaborated with cross-functional teams to align technical solutions with business needs, meeting tight timelines and budget constraints.
+- **Team Leadership:** Directed and mentored a team of seven engineers, fostering a collaborative and delivery-focused culture.
+- **Operational Excellence:** Applied IAM best practices to enhance workflow efficiency and ensure long-term platform resilience.
