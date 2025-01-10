@@ -6,7 +6,7 @@ jobTitle: "Head of Engineering and Innovation - Digital Identity"
 company: "ANZ Banking Group "
 location: "Melbourne, Australia"
 duration: "2020-now"
-
+featured: false
 ---
 ### Leader of Centralized CIAM Platform for Digital Identity(Onboarding and Authorization) and Fraud Prevention, Managing a Team of 50+
 
