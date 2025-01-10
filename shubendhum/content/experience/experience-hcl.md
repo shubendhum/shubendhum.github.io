@@ -1,11 +1,11 @@
 ---
 date: '2011-04-01T00:00:00+01:00'
 draft: false
-title: "**HCL Technologies**"
-jobTitle: "**Senior Consultant IAM**"
-company: "**HCL Technologies LTD**"
-location: "**Noida, India**"
-duration: "**2011-2013**"
+title: "HCL Technologies"
+jobTitle: "Senior Consultant IAM"
+company: "HCL Technologies LTD"
+location: "Noida, India"
+duration: "2011-2013"
 ---
 
 ### **Tailoring IAM Solutions for Global Enterprises**

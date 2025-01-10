@@ -1,11 +1,11 @@
 ---
-date: '2024-09-18T19:03:49+10:00'
+date: '2016-09-18T19:03:49+10:00'
 draft: false
-title: "**ANZ**"
-jobTitle: "**Senior Engineering Manager  Identity**"
-company: "**ANZ Banking Group**"
-location: "**Melbourne, Australia**"
-duration: "**2016-2019**"
+title: "ANZ Banking Group"
+jobTitle: "Senior Engineering Manager  Identity"
+company: "ANZ Banking Group"
+location: "Melbourne, Australia"
+duration: "2016-2019"
 ---
 ### **Transforming Identity Management for Enterprise Excellence**
 

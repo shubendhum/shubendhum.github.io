@@ -1,11 +1,11 @@
 ---
 date: '2013-04-18T19:03:49+10:00'
 draft: false
-title: "**Barclays Investment Bank**"
-jobTitle: "**Senior Consultant  IAM**"
-company: "**Barclays Investment Bank**"
-location: "**Singapore**"
-duration: "**2013-2014**"
+title: "Barclays Investment Bank"
+jobTitle: "Senior Consultant  IAM"
+company: "Barclays Investment Bank"
+location: "Singapore"
+duration: "2013-2014"
 ---
 
 ### **Pioneering IAM Advancements in Global Banking**

@@ -1,11 +1,11 @@
 ---
-date: '2015-04-01T00:00:00+01:00'
+date: '2014-04-01T00:00:00+01:00'
 draft: false
-title: "**Seagate Technologies**"
-jobTitle: "**Technology Lead  Workforce IAM**"
-company: "**Seagate Technologies**"
-location: "**Penang, Malaysia**"
-duration: "**2014-2015**"
+title: "Seagate Technologies"
+jobTitle: "Technology Lead  Workforce IAM"
+company: "Seagate Technologies"
+location: "Penang, Malaysia"
+duration: "2014-2015"
 ---
 
 ### **Driving Workforce Identity Efficiency**
