@@ -503,6 +503,13 @@ strong {
 small {
     font-size: 80%;
 }
+/* Ensure bold text doesn't inherit heading styles */
+strong,
+b {
+  font-weight: bold;
+  font-size: inherit; /* Inherit font size from parent element */
+}
+
 sub,
 sup {
     position: relative;
