@@ -1,11 +1,12 @@
+---
 date: '2024-09-18T19:03:49+10:00'
 draft: false
 title: "**ANZ**"
-jobTitle: "**Senior Engineering Manager - Identity**"
+jobTitle: "**Senior Engineering Manager  Identity**"
 company: "**ANZ Banking Group**"
 location: "**Melbourne, Australia**"
-duration: "**2018-2020**"
-
+duration: "**2016-2019**"
+---
 ### **Transforming Identity Management for Enterprise Excellence**
 
 As a **Senior Engineering Manager for Identity** at **ANZ Banking Group**, I led transformative initiatives to enhance the organization’s IAM framework, aligning security, scalability, and customer-centricity. My role combined strategic oversight with hands-on leadership to drive measurable outcomes.

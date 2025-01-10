@@ -1,26 +1,22 @@
 ---
 date: '2013-04-18T19:03:49+10:00'
-title: 'Senior Consultant - IAM'
-draft: false 
-jobTitle: "Senior Consultant - IAM" 
-company: "Barclays Investment BANK" 
-location: "Singapore" 
-duration: "2013-2015" 
+draft: false
+title: "**Barclays Investment Bank**"
+jobTitle: "**Senior Consultant  IAM**"
+company: "**Barclays Investment Bank**"
+location: "**Singapore**"
+duration: "**2013-2014**"
 ---
-### Leading IAM Innovation in Singapore's Financial Heart
 
-Relocated to Singapore to lead the development of Barclays’ IAM platform , enabling seamless self-service provisioning for complex user roles.
+### **Pioneering IAM Advancements in Global Banking**
 
-Conducted end-to-end workfl ow design and requirement analysis, serving as a subject matter expert (SME) for identity management solutions.
+Relocated to Singapore to lead the development of **Barclays’ IAM platform**, enabling seamless self-service provisioning for complex user roles and enhancing security operations across global business units.
 
-Collaborated with business units and technical teams to develop IAM solutions that enhanced operational effi ciency and improved access control.
+### **Strategic Contributions:**
 
-Implemented secure identity protocols, including multi-factor authentication and privileged access management, ensuring compliance with internal policies.
-
-Provided guidance to global team across Barclays on identity governance, improving security practices and process transparency.
-
-Managed stakeholder relationships to align the IAM platform with business objectives, ensuring smooth delivery and adoption.
-
-Streamlined access provisioning workflows, reducing manual interventions and improving access request turnaround time.
-
-Mentored junior engineers and consultants, fostering technical growth and alignment with industry best practices
+- **Workflow Optimization:** Designed and streamlined access provisioning workflows, reducing manual interventions and cutting turnaround times significantly.
+- **SME Leadership:** Acted as a subject matter expert for identity management solutions, driving workflow design and requirement analysis for scalable systems.
+- **Security Innovation:** Implemented multi-factor authentication and privileged access management to ensure compliance with internal policies and regulatory mandates.
+- **Global Team Guidance:** Provided identity governance expertise across global teams, enhancing transparency and improving security best practices.
+- **Stakeholder Alignment:** Managed key stakeholder relationships, ensuring platform delivery aligned with strategic business goals.
+- **Talent Development:** Mentored junior engineers and consultants, fostering a high-performance culture and technical growth.

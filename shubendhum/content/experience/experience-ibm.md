@@ -1,10 +1,11 @@
+---
 date: '2007-04-01T00:00:00+01:00'
 draft: false
 title: "**IBM Global Process**"
 jobTitle: "**Identity and Access Management Consultant**"
 company: "**IBM Global Process PVT Ltd**"
 location: "**Gurgaon, India**"
-duration: "**2007-2010**"
+duration: "**2010-2011**"
 ---
 
 ### **Optimizing IAM for Financial and Insurance Leaders**

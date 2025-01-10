@@ -2,7 +2,7 @@
 date: '2020-12-17T00:00:00+01:00'
 draft: false
 title: "**ANZ PLUS**"
-jobTitle: "**Head of Engineering and Innovation - Digital Identity**"
+jobTitle: "**Head of Engineering and Innovation  Digital Identity**"
 company: "**ANZ Banking Group**"
 location: "**Melbourne, Australia**"
 duration: "**2019-now**"
