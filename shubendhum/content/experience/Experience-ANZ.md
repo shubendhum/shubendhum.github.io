@@ -5,6 +5,7 @@ title: "ANZ PLUS"
 jobTitle: "Head of Engineering and Innovation  Digital Identity"
 company: "ANZ Banking Group"
 location: "Melbourne, Australia"
+Summary: "Visionary Leadership:Defined and executed the roadmap for a next-generation CIAM platform ........ "
 duration: "2019-now"
 featured: false
 ---
