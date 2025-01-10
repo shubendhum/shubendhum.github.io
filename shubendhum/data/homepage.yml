@@ -22,7 +22,7 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/shubendhum/"
+      URL: "https://www.linkedin.com/in/shubendhu-mahajan/"
 
     - icon: "github"
       URL: "https://github.com/shubendhum"
@@ -89,7 +89,7 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://Linkedin.com/in/shubendhum"
+    URL: "https://linkedin.com/in/shubendhu-mahajan"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
