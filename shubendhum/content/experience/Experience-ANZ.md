@@ -5,7 +5,7 @@ title: "**ANZ PLUS**"
 jobTitle: "**Head of Engineering and Innovation - Digital Identity**"
 company: "**ANZ Banking Group**"
 location: "**Melbourne, Australia**"
-duration: "**2020-now**"
+duration: "**2019-now**"
 featured: false
 ---
 
