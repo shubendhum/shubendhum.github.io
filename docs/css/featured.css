@@ -77,3 +77,17 @@
     object-fit: cover;
   }
   
+  .experience__summary {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .experience__summary p {
+    margin-bottom: 5px;
+  }
+  
+  .experience__summary .btn {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
