@@ -1,17 +1,20 @@
 ---
-date: '2011-04-01T00:00:00+01:00' # date in which the content is created - defaults to "today"
+date: '2011-04-01T00:00:00+01:00' 
 title: "HCL Technologies"
-draft: false # set to "true" if you want to hide the content 
-jobTitle: "Consultant/Engineer - Identity" # job description/title. Fill-in
-company: "HCL Technologies LTD" # name of the company you worked for. Fill-in
-location: "Noida, India" # place/city/country for the experience. Fill-in.
-duration: "2011-2013" # from-to, for example "2022-2024". Fill-in.
-
-## For the content, you can use a title and a job description.
-## For example:
-# ### Fixing the world, one byte at a time
-# The beginning of a great career. 
-# 
+draft: false 
+jobTitle: "Senior Consultant IAM" 
+company: "HCL Technologies LTD" 
+location: "Noida, India" 
+duration: "2010-2013" 
 ---
 ## For the content, you can use a title and a job description.
-For example:
+
+Provided IAM consulting services to Fortune 500 clients, streamlining user provisioning and Privileged Access Management (PAM) for complex environments.
+
+Collaborated with client stakeholdersto design tailored IAM solutions that aligned with regulatory requirements and business objectives.
+
+Led requirements analysis and technical workshops, providing expert guidance on IAM strategy, best practices, and implementation roadmaps.
+
+Mentored and guided client teams during solution rollouts, ensuring smooth adoption and long-term sustainability.
+
+Managed multiple client engagements simultaneously, delivering high-quality solutions within defi ned timelines and budgets.

@@ -1,15 +1,22 @@
 ---
-date: '2007-12-29T06:11:51+10:00' # date in which the content is created - defaults to "today"
-title: 'IBM GLOBAL Process and Services'
-draft: false # set to "true" if you want to hide the content 
-jobTitle: "Engineer - Identity" # job description/title. Fill-in
-company: "IBM GLOBAL Process and Services" # name of the company you worked for. Fill-in
-location: "Gurgaon, India" # place/city/country for the experience. Fill-in.
-duration: "2007-2011" # from-to, for example "2022-2024". Fill-in.
-
-## For the content, you can use a title and a job description.
-## For example:
-# ### Fixing the world, one byte at a time
-# The beginning of a great career. 
-# 
+date: '2007-04-01T00:00:00+01:00' 
+title: "IBM Global Process PVT Ltd"
+draft: false 
+jobTitle: "Identity and Access Management Consultant" 
+company: "IBM Global Process PVT Ltd" 
+location: "Gurgaon, India" 
+duration: "2007-2010" 
 ---
+## For the content, you can use a title and a job description.
+Advised fi nancial and insurance clients
+on
+workforce IAM solutions
+, ensuring compliance with regulatory standards and secure access management.
+Designed and implemented automated IAM workfl ows
+, improving effi ciency and minimizing manual processes.
+Facilitated technical workshops
+to understand client requirements, recommend solutions, and align IAM strategies with business goals.
+Provided ongoing consulting and support
+to client teams, ensuring effective use of IAM platforms and processes.
+Conducted IAM Strategy and assessments
+, identifying gaps and recommending security strategies to meet evolving business needs.

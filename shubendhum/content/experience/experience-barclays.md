@@ -1,17 +1,26 @@
 ---
-date: '2013-04-01T00:00:00+01:00' # date in which the content is created - defaults to "today"
-title: "Barclays Investment"
-draft: false # set to "true" if you want to hide the content 
-jobTitle: "Consultant/Engineer - Identity" # job description/title. Fill-in
-company: "Barclays Investment Banking LTD" # name of the company you worked for. Fill-in
-location: "Marina Bay, Singapore" # place/city/country for the experience. Fill-in.
-duration: "2013-2014" # from-to, for example "2022-2024". Fill-in.
-
-## For the content, you can use a title and a job description.
-## For example:
-# ### Fixing the world, one byte at a time
-# The beginning of a great career. 
-# 
+date: '2013-04-18T19:03:49+10:00'
+title: 'Senior Consultant - IAM'
+draft: false 
+jobTitle: "Senior Consultant - IAM" 
+company: "Barclays Investment BANK" 
+location: "Singapore" 
+duration: "2013-2015" 
 ---
-## For the content, you can use a title and a job description.
-For example:
+### Leading IAM Innovation in Singapore's Financial Heart
+
+Relocated to Singapore to lead the development of Barclays’ IAM platform , enabling seamless self-service provisioning for complex user roles.
+
+Conducted end-to-end workfl ow design and requirement analysis, serving as a subject matter expert (SME) for identity management solutions.
+
+Collaborated with business units and technical teams to develop IAM solutions that enhanced operational effi ciency and improved access control.
+
+Implemented secure identity protocols, including multi-factor authentication and privileged access management, ensuring compliance with internal policies.
+
+Provided guidance to global team across Barclays on identity governance, improving security practices and process transparency.
+
+Managed stakeholder relationships to align the IAM platform with business objectives, ensuring smooth delivery and adoption.
+
+Streamlined access provisioning workflows, reducing manual interventions and improving access request turnaround time.
+
+Mentored junior engineers and consultants, fostering technical growth and alignment with industry best practices
