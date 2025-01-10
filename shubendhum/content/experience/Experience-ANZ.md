@@ -15,6 +15,15 @@ At **ANZ PLUS**, I play a key role in leading the delivery of the **Digital Iden
 
 I have successfully integrated both off-the-shelf products and in-house solutions to deliver **scalable identity verification, fraud detection, and authorization services**. Additionally, I collaborate with cross-functional teams to ensure that all business objectives are met while continuously driving improvements in platform performance and security.
 
+
+### **Leadership Contributions:**
+
+- **Visionary Leadership:** Defined and executed the roadmap for a next-generation CIAM platform, transforming identity management into a core business enabler.
+- **Cross-Team Synergy:** Orchestrated collaboration between engineering, security, and business teams to ensure seamless integration of IAM solutions with organizational goals.
+- **Mentorship Excellence:** Established a leadership development program to identify and nurture high-potential talent, building a robust pipeline of future leaders.
+- **Outcome-Driven Management:** Introduced key performance indicators (KPIs) to track platform adoption, security improvements, and user satisfaction, resulting in consistent above-target performance.
+- **Crisis Management:** Led the IAM team through critical incidents with a 100% resolution rate, minimizing impact on banking operations and customer trust.
+
 ### **Notable Achievements:**
 
 - **Strategic Platform Architect:** Spearheaded the design and deployment of the ANZ Plus Identity Platform, scaling from inception to managing 8 critical technology assets, leveraging cloud-native solutions, SaaS platforms, and microservices.
