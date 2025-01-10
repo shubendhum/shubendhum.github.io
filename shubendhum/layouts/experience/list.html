@@ -12,6 +12,20 @@
 
   {{ partial "experience.html" . }}
 
+  <main class="experience">
+    <section class="container section">
+      <h1 class="rad-fade-down rad-waiting rad-animate">{{ .Title }}</h1>
+      <div class="experience-list container">
+        <!-- Renders the summary.html content view for each content/experiences/*.md -->
+        {{ range .Pages }}
+          <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate section--border-bottom">
+          {{ .Render "summary" }}
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  </main>
+  
   {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
 </body>
 
