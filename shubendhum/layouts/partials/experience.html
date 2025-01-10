@@ -21,6 +21,11 @@
                         <div class="experience__company">{{ .Params.company }}. <span class="experience__location">{{
                                 .Params.location }}</span></div>
                     </a>
+                    <div class="experience__summary">
+                        <!-- Use .Summary for preview content -->
+                        <p>{{ .Summary }}</p>
+                        <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">Read&nbsp;more&nbsp;&raquo;</a>
+                    </div>
                 </div>
                 {{ end }}
                 {{ if gt $xpCount $totalCount }}
