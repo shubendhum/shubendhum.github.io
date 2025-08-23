@@ -7,7 +7,7 @@ company: "ANZ Banking Group"
 location: "Melbourne, Australia"
 Summary: "Visionary Leadership:Defined and executed the roadmap for a next-generation CIAM platform ........ "
 duration: "2019-now"
-featured: false
+featured: true
 ---
 
 ### **Leader of Centralized CIAM Platform for Digital Identity (Onboarding and Authorization) and Fraud Prevention, Managing a Team of 50+**
